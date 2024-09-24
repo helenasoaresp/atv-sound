@@ -1,0 +1,41 @@
+/*==================
+    Formatação geral
+====================*/
+
+html {
+    font-size: calc(10px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2vw 8vw 2vw 8vw;
+    color: black;
+}
+
+html body a {
+    text-decoration: none;
+}
+
+/*===================
+    Formatação do topo 
+=====================*/
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin:  0 2vw 0 2vw;
+}
+
+header nav ul li a {
+    color: #553C16;
+}
+section.banner {
+    display: flex;
+}
+section.banner div h1 {
+    line-height: 2rem;
+}
